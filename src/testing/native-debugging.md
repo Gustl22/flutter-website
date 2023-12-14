@@ -25,6 +25,7 @@ that portion of your code with a native debugger.
   you can use Xcode.
 - To debug Android code written in Java or Kotlin, you can use Android Studio.
 - To debug Windows code written in C++, you can use Visual Studio.
+- To debug Linux code written in C/C++, you can use VS Code or CLion.
 
 This guide shows you how you can connect _two_
 debuggers to your Dart app, one for Dart, and one for the native code.
@@ -460,6 +461,18 @@ These section uses the same example Flutter `url_launcher` app created
 in [Update test Flutter app](#update-test-flutter-app).
 
 {% include docs/debug/debug-flow-windows.md %}
+
+### Debug Dart and C/C++ code using CLion
+
+To debug C/C++ code, you need a Flutter app that contains C/C++ code.
+In this section, you learn to connect two debuggers to your app:
+Flutter via VS Code and CLion.
+You need to run both VS Code and CLion.
+
+These section uses the same example Flutter `url_launcher` app created
+in [Update test Flutter app](#update-test-flutter-app).
+
+{% include docs/debug/debug-flow-linux.md %}
 
 ## Resources
 
