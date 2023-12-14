@@ -10,7 +10,7 @@ description: How to connect a native debugger to your running Flutter app.
   This guide presumes you understand general debugging,
   have installed Flutter and git, and have familiarity
   with the Dart language as well as one of the following
-  languages: Java, Kotlin, Swift, or Objective-C.
+  languages: Java, Kotlin, Swift, Objective-C, C or C++.
 {{site.alert.end}}
 
 If you write Flutter apps only with Dart code,
